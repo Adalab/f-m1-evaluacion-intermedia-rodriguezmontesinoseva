@@ -22,7 +22,38 @@
     display: flex;
     margin-bottom: 13px;
     padding: 0;
+    color: #4a4a4a;
 }
-.format-item{
+.format-item1{
+    color: #4a4a4a;
+    font-size: 16px;
+
+}
+.format-item2{
     margin-left: 20px;
+    color: #4a4a4a;
+    font-size: 16px;
+
+}
+.main-home{
+    width: 100vw;
+    height: 100vw;
+    background-color: #3CDBC0;
+   
+}
+.format-list-main{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 13px;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+@media all and (min-width: 768px) {
+    .format-list{
+        align-items: right;
+    }
 }
