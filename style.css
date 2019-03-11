@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header-home {
+  /*  position: fixed;*/
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+    align-items: center;
+   /* z-index: 100;
+    background-size:contain;  */  
+}
+.picture{
+    width: 155px;
+    margin: 10px 0 10px 0;
+}
+.format-list{
+    list-style: none;
+    display: flex;
+    margin-bottom: 13px;
+    padding: 0;
+}
+.format-item{
+    margin-left: 20px;
+}
