@@ -15,7 +15,9 @@ body{
     
 }
 
-.header{
+/* HEADER */
+
+.header__container{
     background-color: #fff;
     text-align:center;
     position:fixed;
@@ -39,4 +41,23 @@ body{
     margin: 10px 10px 13px 10px;
     text-decoration: none;
     color:#4a4a4a;
+}
+
+/* MAIN */
+.main__container{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main__title{
+    font-size:30px;
+    font-weight: 800;
+    color:#FFFFFF;
+    text-align: center;
+    text-transform:  capitalize;
+    width: 167px;
+    line-height: 1.3;
 }
